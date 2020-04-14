@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">s</string>
+    <string name="login">Already have an account ?  Login</string>
+    <string name="find">find,Discover,choose and buy anything online</string>
+    <string name="join">Join Now</string>
+    <string name="todo">todo</string>
+    <string name="add_new_product">Add new product</string>
+    <string name="adding">Add New Product</string>
+</resources>
