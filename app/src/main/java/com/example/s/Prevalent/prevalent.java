@@ -4,5 +4,8 @@ import com.example.s.Model.Users;
 
 public class prevalent
 {
-    private static Users  currentOnlineUser;
+    public static Users  currentOnlineUser;
+
+    public static final String UserPhoneKey = "UserPhone";
+    public static final String UserPasswordKey = "UserPassword";
 }
