@@ -86,6 +86,8 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
         CircleImageView profileImageView = headerView.findViewById(R.id.user_profile_image);
 
         userNameTextView.setText(prevalent.currentOnlineUser.getName());
+        Picasso.get().load(prevalent.currentOnlineUser.getImage()).placeholder(R.drawable.profile);
+
 
         recyclerView = findViewById(R.id.recycler_menu);
         recyclerView.setHasFixedSize(true);
